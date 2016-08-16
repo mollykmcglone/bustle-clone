@@ -1,17 +1,19 @@
-<li>
-  {{#link-to "story" story.id}}<div class="picture">
-    <img src={{story.image}} alt={{story.title}}>
-  </div>{{/link-to}}
-  <div class="story-content well">
-    <table class="details-table">
-      <tr>
-        <td class="title">{{story.title}}</td>
-      </tr>
-      <tr>
-        <td class="author">{{story.author}}</td>
-        <td class="category">{{story.category}}</td>
-      </tr>
-    </table>
-  </div>
-</li>
+{{#carousel-item}}
+  <li>
+    {{#link-to "story" story.id}}<div class="picture">
+      <img src={{story.image}} alt={{story.title}}>
+    </div>{{/link-to}}
+    <div class="story-content well">
+      <table class="details-table">
+        <tr>
+          <td class="title">{{story.title}}</td>
+        </tr>
+        <tr>
+          <td class="author">{{story.author}}</td>
+          <td class="category">{{story.category}}</td>
+        </tr>
+      </table>
+    </div>
+  </li>
+{{/carousel-item}}
 {{outlet}}

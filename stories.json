@@ -3,18 +3,21 @@
     "image": "http://o.aolcdn.com/dims5/amp:9037f0c6599fa6fe74a593af2693ad680441439c/foc:auto/t:600,600/f:png/q:60/?url=http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2Fb7cda62915cddeb041807c6dc466a880%2F204184108%2FRTSM7XT.jpeg",
     "author": "Cate Carrejo",
     "date": "August 15th, 2016",
-    "category": "NEWS"
+    "category": "NEWS",
+    "text": "Sample text for Simone Biles story"
   }, {
     "title": "Usain Bolt Finishes 100-Meter Dash Victory Celebration In Personal Best 3 Hours, 42 Minutes",
     "image": "https://ssl.gstatic.com/onebox/media/olympics/photos/o16/live/RIOEC8F00STV1_768x432.JPG",
     "author": "Onion McOnion",
     "date": "August 15th, 2016",
-    "category": "NEWS"
+    "category": "NEWS",
+    "text": "Sample text for Usain Bolt story"
   }, {
     "title": "Simone Manuel is the First African-American woman to win a Gold",
     "image": "http://swagggirlicious.com/wp-content/uploads/2016/08/Simone-Manuel-600x600.gif",
     "author": "Buzzfeed",
     "date": "August 15th, 2016",
-    "category": "NEWS"
+    "category": "NEWS",
+    "text": "Sample text for Simone Manuel story"
   }]
 }

@@ -1,5 +1,17 @@
 <li>
-  {{story.title}}, by {{story.author}} on {{story.date}} {{story.category}}
-  {{#link-to "story" story.id}}<p><img src={{story.image}} alt={{story.title}}></p>{{/link-to}}
+  {{#link-to "story" story.id}}<div class="picture">
+    <img src={{story.image}} alt={{story.title}}>
+  </div>{{/link-to}}
+  <div class="story-content well">
+    <table class="details-table">
+      <tr>
+        <td class="title">{{story.title}}</td>
+      </tr>
+      <tr>
+        <td class="author">{{story.author}}</td>
+        <td class="category">{{story.category}}</td>
+      </tr>
+    </table>
+  </div>
 </li>
 {{outlet}}
